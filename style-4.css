@@ -283,15 +283,15 @@ section h3:nth-child(1) { margin-top: 0 }
 
 
 /* Web page */
-body {  font-family: var(--font-serif) }
+body {  font-family: "Merriweather", serif; }
 
 /* Main heading */
 header h1 {
-    font-size: var(--fs-xxxl);
+    font-size: var(--fs-md);
     line-height: 1.1;
     font-weight: normal;
     color: var(--blue-800);
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     text-align: center;
     margin-top: -12px;
     margin-bottom: 32px;
@@ -312,15 +312,15 @@ header h2 {
 h3 {
     font-size: var(--fs-xl);
     color: #000;
-    letter-spacing:-1px;
-    margin-top: 40px;
+    letter-spacing: 1px;
+    margin-top: 60px;
     margin-bottom: 2px;
     line-height: 1.2;
 }
 
 /* Text paragraphs */
 p {
-    font-size: var(--fs-md);
+    font-size: var(--fs-base);
     color: var(--slate-800);
     line-height: 1.6;
     margin-top: 0;
@@ -329,3 +329,5 @@ p {
 }
 
 img {margin-bottom: 24px;}
+
+
