@@ -25,6 +25,11 @@
   gtag('config', 'G-YR23BNYV0N');
 </script>
 
+
+
+    <!-- Styles for Cookie Consent Popup Message  -->
+    <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
+
 </head>
 
 
@@ -50,6 +55,25 @@
             <p><a href="exercises/page-5.html">Irish Tourism</a></p>
         </section>
     </main>
+
+    
+    <!-- JavaScript for Cookie Consent Popup Message -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#000"
+            },
+            "button": {
+                "background": "#f1d600"
+            }
+        },
+        "content": {
+            "href": "annakopacka.github.io/privacy.html"
+        }
+    });
+    </script>
 
 </body>
 </html>
