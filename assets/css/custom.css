@@ -1,14 +1,57 @@
 
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #393E46 }
 
-header.theme-dark   { background-color: #0f172a }
+header.theme-dark   { background-color: #948979 }
 
 header.theme-dark  h1 { color: var(--sky-400); }
 
-section.theme-dark   { background-color: #0f172a }
+section.theme-dark   { background-color: #C9B194}
 
-footer.theme-dark   { background-color: #0f172a }
+footer.theme-dark   { background-color: #393E46 }
 
 
 
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+/* Main heading */
+h1 {
+    
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--fs-xxxl);
+    color: rgb(80, 49, 47)
+  }
+  
+  header p {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--fs-md);
+    color: rgb(80, 49, 47)
+  }
+      
+
+/* Small headings*/
+h2 {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--fs-xl);
+    color: rgb(80, 49, 47)
+  }
+
+
+/* Text Paragraphs */
+p {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--fs-md);
+    color: rgb(80, 49, 47) 
+}
+
+  
+  
+
+  
